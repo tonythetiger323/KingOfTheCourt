@@ -1,0 +1,46 @@
+{
+  "name": "KingOfTheCourt",
+  "version": "1.0.0",
+  "description": "Group Project 2, an app to assist in setting up intramural sports leagues without having to pay a ton of money for it.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "bcrypt-nodejs": "0.0.3",
+    "connect-session-sequelize": "^6.0.0",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-handlebars-sections": "^1.0.1",
+    "express-session": "^1.15.6",
+    "fetch": "^1.1.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "node-fetch": "^2.3.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^4.42.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "engines": {
+    "node": "10.15.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonythetiger323/KingOfTheCourt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/tonythetiger323/KingOfTheCourt/issues"
+  },
+  "homepage": "https://github.com/tonythetiger323/KingOfTheCourt#readme"
+}
